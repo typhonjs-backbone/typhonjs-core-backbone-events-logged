@@ -2,7 +2,7 @@
   "name": "typhonjs-core-backbone-events-logged",
   "version": "0.1.0",
   "homepage": "https://github.com/typhonjs/typhonjs-core-backbone-events-logged/",
-  "description": "Separates 'events' support from Backbone in addition to adding TyphonJS extensions.",
+  "description": "Provides a `typhonjs-core-logging` enabled version of `typhonjs-core-backbone-events`.",
   "license": "MIT",
   "repository": {
     "type": "git",
