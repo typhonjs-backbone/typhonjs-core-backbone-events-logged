@@ -20,6 +20,7 @@ describe('Events', () =>
    {
       eventbus.setEventbusName('testname');
       assert(eventbus.getEventbusName() === 'testname');
+      eventbus.setEventbusName('mainEventbus');
    });
 
    it('trigger', () =>

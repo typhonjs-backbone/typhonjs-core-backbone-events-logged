@@ -58,10 +58,11 @@ export default class TyphonLoggedEvents extends TyphonEvents
    }
 
    /**
-    * Sets the current event scrubber. The event scrubber is run against the event data about to be logged. It should
+    * Sets the current event scrubber. The event scrubber is a function which is passed the `logData` object hash
+    * of event data that is about to be logged. It should pass back a modified version of `logData`. This is rather
+    * useful for scrubbing sensitive events from being logged such as username / password.
     *
-    *
-    * @param {function} eventScrubber - A function
+    * @param {function} eventScrubber - A function that scrubs event log data.
     */
    setEventScrubber(eventScrubber)
    {
