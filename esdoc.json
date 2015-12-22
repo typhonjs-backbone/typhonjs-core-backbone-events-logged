@@ -1,0 +1,7 @@
+{
+   "title": "typhonjs-core-backbone-events-logged",
+   "source": "src",
+   "destination": "docs",
+   "plugins": [ { "name": "esdoc-plugin-jspm" } ],
+   "manual": { "changelog": ["./CHANGELOG.md"] }
+}
