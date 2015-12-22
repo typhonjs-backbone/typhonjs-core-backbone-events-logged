@@ -20,4 +20,6 @@ a single promise to the callee.
 
 [mainEventbus.js](https://github.com/typhonjs/typhonjs-core-backbone-events-logged/blob/master/src/mainEventbus.js) provides a standardized instance of TyphonLoggedEvents which serves as the name implies as a main eventbus. 
 
-Enabling eventbus logging aids debugging. 
+Enabling eventbus logging aids debugging. A notable addition to the API is the following methods:
+- `setEventScrubber` - Sets a function which should accept one parameter which processes the `logData` object hash which is about to be sent to the logger. This is useful for scrubbing sensitive data such as username / password. 
+- `setLogLevel` - Sets the log level used for logging output.
