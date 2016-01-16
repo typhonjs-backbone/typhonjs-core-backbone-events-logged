@@ -9,7 +9,6 @@
     "url": "https://github.com/typhonjs/typhonjs-core-backbone-events/typhonjs-core-backbone-events-logged.git"
   },
   "jspm": {
-    "main": false,
     "dependencies": {
       "typhonjs-core-backbone-events": "github:typhonjs/typhonjs-core-backbone-events@master",
       "typhonjs-core-logging": "github:typhonjs/typhonjs-core-logging@master",
@@ -19,7 +18,7 @@
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.34",
       "babel-runtime": "npm:babel-runtime@^5.8.34",
-      "core-js": "npm:core-js@^1.2.1"
+      "core-js": "npm:core-js@^1.2.6"
     }
   },
   "devDependencies": {
@@ -31,10 +30,10 @@
     "fs-extra": "^0.26.2",
     "gulp": "^3.9.0",
     "istanbul": "^1.0.0-alpha",
-    "jspm": "^0.16.19",
+    "jspm": "^0.16.23",
     "mocha": "^2.3.4",
     "typhonjs-config-eslint": "^0.2.1",
-    "typhonjs-core-gulptasks": "^0.3.0"
+    "typhonjs-core-gulptasks": "^0.4.0"
   },
   "scripts": {
     "test": "node ./script/test.js",
