@@ -9,6 +9,7 @@
     "url": "https://github.com/typhonjs/typhonjs-core-backbone-events/typhonjs-core-backbone-events-logged.git"
   },
   "jspm": {
+    "main": false,
     "dependencies": {
       "typhonjs-core-backbone-events": "github:typhonjs/typhonjs-core-backbone-events@master",
       "typhonjs-core-logging": "github:typhonjs/typhonjs-core-logging@master",
