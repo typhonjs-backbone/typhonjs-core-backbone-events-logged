@@ -5,7 +5,7 @@
 [![Code Style](https://img.shields.io/badge/code%20style-allman-yellowgreen.svg?style=flat)](https://en.wikipedia.org/wiki/Indent_style#Allman_style)
 [![License](https://img.shields.io/badge/license-MIT-yellowgreen.svg?style=flat)](https://github.com/typhonjs/backbone-es6/blob/master/LICENSE)
 
-[![Build Status](https://travis-ci.org/typhonjs/typhonjs-core-backbone-events-logged.svg)](https://travis-ci.org/typhonjs/typhonjs-core-backbone-events-logged)
+[![Build Status](https://travis-ci.org/typhonjs-backbone/typhonjs-core-backbone-events-logged.svg?branch=master)](https://travis-ci.org/typhonjs-backbone/typhonjs-core-backbone-events-logged)
 [![Dependency Status](https://www.versioneye.com/user/projects/567912a5107997002d00134a/badge.svg?style=flat)](https://www.versioneye.com/user/projects/567912a5107997002d00134a)
 
 Provides a [typhonjs-core-logging](https://github.com/typhonjs/typhonjs-core-logging) enabled version of [typhonjs-core-backbone-events](https://github.com/typhonjs/typhonjs-core-backbone-events). Please refer to typhonjs-core-backbone-events documentation for usage details. 
