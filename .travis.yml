@@ -7,4 +7,4 @@ before_script:
   - jspm install
 script:
   - gulp eslint
-  - npm run test
+  - npm run test-coverage
